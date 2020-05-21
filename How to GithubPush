@@ -1,0 +1,19 @@
+＜レポジトリの新規作成＞
+$ git init
+
+＜コミットするファイルの追加＞
+$ git add ファイル1･･･
+
+＜Gitへの追加＞
+$ git commit -m "コミットメッセージ"
+
+＜ショートネームの作成方法＞
+originalの部分は任意
+Sample.gitの部分はプッシュしたいレポジトリ名にする
+$ git remote add original git@github.com:peta-hikari/Sample.git
+
+＜プッシュ方法＞
+ショートネームとブランチ名を入力
+$ git push original master
+
+*うまくいかないときはsshが繋げられてるか確認する
